@@ -1,0 +1,68 @@
+.navbar {
+  background: rgb(47, 27, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(47, 27, 60, 1) 0%,
+    rgba(88, 51, 113, 1) 50%,
+    rgba(118, 68, 153, 1) 100%
+  );
+  /* add any other custom styles here */
+}
+
+.me-2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #ffb800;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #ffb800;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.navbar-brand:hover {
+  font-size: 2rem;
+  color: #ffb800;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+@media (max-width: 990px) {
+  .nav-link {
+    text-align: center;
+  }
+  .navbar-brand {
+    margin-left: 17px;
+    text-align: center;
+  }
+}
+
+.btn-custom {
+  outline-color: #ffb800;
+  color: #ffb800;
+  border-color: #ffb800;
+}
+
+.btn-custom:active {
+  color: white;
+  background-color: black;
+}
+
+.btn-custom:hover {
+  background-color: #ffb800;
+  border-color: orange;
+  color: black;
+}
+
+.d-flex {
+  margin-left: auto;
+}
